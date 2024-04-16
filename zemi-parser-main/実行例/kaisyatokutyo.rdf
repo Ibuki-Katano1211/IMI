@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://example.org/ic#ic:"
+   xmlns:ns2="http://example.org/ic#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://example.org/ic#ic:会社特徴項目型">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <ns1:会社特徴項目>name</ns1:会社特徴項目>
+    <ns1:会社の特長項目を表す用語>description</ns1:会社の特長項目を表す用語>
+    <ns1:業種>set</ns1:業種>
+    <ns1:事業概要>set</ns1:事業概要>
+    <ns1:企業概要PR>set</ns1:企業概要PR>
+    <ns1:受注希望事項>set</ns1:受注希望事項>
+    <ns1:主要製品>set</ns1:主要製品>
+    <ns1:製品の特長>set</ns1:製品の特長>
+    <ns1:加工内容>set</ns1:加工内容>
+    <ns1:得意加工技術>set</ns1:得意加工技術>
+    <ns1:加工分野>set</ns1:加工分野>
+    <ns1:加工素材>set</ns1:加工素材>
+    <ns1:依頼の多い業種>set</ns1:依頼の多い業種>
+    <ns1:取り扱える製品の大きさ>set</ns1:取り扱える製品の大きさ>
+    <ns1:加入団体>set</ns1:加入団体>
+    <ns1:主要測定機器>set</ns1:主要測定機器>
+    <ns1:主要機械設備>set</ns1:主要機械設備>
+    <ns1:sns等の広報活動>set</ns1:sns等の広報活動>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ic#ic:主要機械設備">
+    <ns2:hasMetadata>主要機械設備</ns2:hasMetadata>
+    <ns2:hasMetadata>主要機械設備を記述するためのプロパティ用語</ns2:hasMetadata>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ic#ic:業種">
+    <ns2:hasMetadata>業種</ns2:hasMetadata>
+    <ns2:hasMetadata>業種を記述するためのプロパティ用語</ns2:hasMetadata>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ic#ic:依頼の多い業種">
+    <ns2:hasMetadata>依頼の多い業種</ns2:hasMetadata>
+    <ns2:hasMetadata>依頼の多い業種を記述するためのプロパティ用語</ns2:hasMetadata>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ic#ic:取り扱える製品の大きさ">
+    <ns2:hasMetadata>取り扱える製品の大きさ</ns2:hasMetadata>
+    <ns2:hasMetadata>取り扱える製品の大きさを記述するためのプロパティ用語</ns2:hasMetadata>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ic#ic:加入団体">
+    <ns2:hasMetadata>加入団体</ns2:hasMetadata>
+    <ns2:hasMetadata>加入団体を記述するためのプロパティ用語</ns2:hasMetadata>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ic#ic:sns等の広報活動">
+    <ns2:hasMetadata>sns等の広報活動</ns2:hasMetadata>
+    <ns2:hasMetadata>sns等の広報活動を記述するためのプロパティ用語</ns2:hasMetadata>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ic#ic:企業概要PR">
+    <ns2:hasMetadata>企業概要PR</ns2:hasMetadata>
+    <ns2:hasMetadata>企業概要PRを記述するためのプロパティ用語</ns2:hasMetadata>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ic#ic:主要測定機器">
+    <ns2:hasMetadata>主要測定機器</ns2:hasMetadata>
+    <ns2:hasMetadata>主要測定機器を記述するためのプロパティ用語</ns2:hasMetadata>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ic#ic:加工分野">
+    <ns2:hasMetadata>加工分野</ns2:hasMetadata>
+    <ns2:hasMetadata>加工分野を記述するためのプロパティ用語</ns2:hasMetadata>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ic#ic:受注希望事項">
+    <ns2:hasMetadata>受注希望事項</ns2:hasMetadata>
+    <ns2:hasMetadata>受注希望事項を記述するためのプロパティ用語</ns2:hasMetadata>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ic#ic:加工素材">
+    <ns2:hasMetadata>加工素材</ns2:hasMetadata>
+    <ns2:hasMetadata>加工素材を記述するためのプロパティ用語</ns2:hasMetadata>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ic#ic:主要製品">
+    <ns2:hasMetadata>主要製品</ns2:hasMetadata>
+    <ns2:hasMetadata>主要製品を記述するためのプロパティ用語</ns2:hasMetadata>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ic#ic:得意加工技術">
+    <ns2:hasMetadata>得意加工技術</ns2:hasMetadata>
+    <ns2:hasMetadata>得意加工技術を記述するためのプロパティ用語</ns2:hasMetadata>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ic#ic:加工内容">
+    <ns2:hasMetadata>加工内容</ns2:hasMetadata>
+    <ns2:hasMetadata>加工内容を記述するためのプロパティ用語</ns2:hasMetadata>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ic#ic:製品の特長">
+    <ns2:hasMetadata>製品の特長</ns2:hasMetadata>
+    <ns2:hasMetadata>製品の特長を記述するためのプロパティ用語</ns2:hasMetadata>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ic#ic:事業概要">
+    <ns2:hasMetadata>事業概要</ns2:hasMetadata>
+    <ns2:hasMetadata>事業概要を記述するためのプロパティ用語</ns2:hasMetadata>
+  </rdf:Description>
+</rdf:RDF>

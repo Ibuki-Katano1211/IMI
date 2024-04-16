@@ -1,0 +1,453 @@
+[
+  {
+    "prefix": "ic",
+    "name": "会社特徴項目型",
+    "type": "class",
+    "metadata": [
+      {
+        "type": "name",
+        "data": "会社特徴項目"
+      },
+      {
+        "type": "description",
+        "data": "会社の特長項目を表す用語"
+      }
+    ]
+  },
+  {
+    "type": "set",
+    "class": {
+      "prefix": "ic",
+      "name": "会社特徴項目型"
+    },
+    "property": {
+      "prefix": "ic",
+      "name": "業種"
+    },
+    "restriction": [
+      {
+        "type": "cardinality",
+        "min": 0
+      }
+    ],
+    "metadata": [
+      {
+        "type": "name",
+        "data": "業種"
+      },
+      {
+        "type": "description",
+        "data": "業種を記述するためのプロパティ用語"
+      }
+    ]
+  },
+  {
+    "type": "set",
+    "class": {
+      "prefix": "ic",
+      "name": "会社特徴項目型"
+    },
+    "property": {
+      "prefix": "ic",
+      "name": "事業概要"
+    },
+    "restriction": [
+      {
+        "type": "cardinality",
+        "min": 0,
+        "max": 1
+      }
+    ],
+    "metadata": [
+      {
+        "type": "name",
+        "data": "事業概要"
+      },
+      {
+        "type": "description",
+        "data": "事業概要を記述するためのプロパティ用語"
+      }
+    ]
+  },
+  {
+    "type": "set",
+    "class": {
+      "prefix": "ic",
+      "name": "会社特徴項目型"
+    },
+    "property": {
+      "prefix": "ic",
+      "name": "企業概要PR"
+    },
+    "restriction": [
+      {
+        "type": "cardinality",
+        "min": 0,
+        "max": 1
+      }
+    ],
+    "metadata": [
+      {
+        "type": "name",
+        "data": "企業概要PR"
+      },
+      {
+        "type": "description",
+        "data": "企業概要PRを記述するためのプロパティ用語"
+      }
+    ]
+  },
+  {
+    "type": "set",
+    "class": {
+      "prefix": "ic",
+      "name": "会社特徴項目型"
+    },
+    "property": {
+      "prefix": "ic",
+      "name": "受注希望事項"
+    },
+    "restriction": [
+      {
+        "type": "cardinality",
+        "min": 0,
+        "max": 1
+      }
+    ],
+    "metadata": [
+      {
+        "type": "name",
+        "data": "受注希望事項"
+      },
+      {
+        "type": "description",
+        "data": "受注希望事項を記述するためのプロパティ用語"
+      }
+    ]
+  },
+  {
+    "type": "set",
+    "class": {
+      "prefix": "ic",
+      "name": "会社特徴項目型"
+    },
+    "property": {
+      "prefix": "ic",
+      "name": "主要製品"
+    },
+    "restriction": [
+      {
+        "type": "cardinality",
+        "min": 0
+      }
+    ],
+    "metadata": [
+      {
+        "type": "name",
+        "data": "主要製品"
+      },
+      {
+        "type": "description",
+        "data": "主要製品を記述するためのプロパティ用語"
+      }
+    ]
+  },
+  {
+    "type": "set",
+    "class": {
+      "prefix": "ic",
+      "name": "会社特徴項目型"
+    },
+    "property": {
+      "prefix": "ic",
+      "name": "製品の特長"
+    },
+    "restriction": [
+      {
+        "type": "cardinality",
+        "min": 0,
+        "max": 1
+      }
+    ],
+    "metadata": [
+      {
+        "type": "name",
+        "data": "製品の特長"
+      },
+      {
+        "type": "description",
+        "data": "製品の特長を記述するためのプロパティ用語"
+      }
+    ]
+  },
+  {
+    "type": "set",
+    "class": {
+      "prefix": "ic",
+      "name": "会社特徴項目型"
+    },
+    "property": {
+      "prefix": "ic",
+      "name": "加工内容"
+    },
+    "restriction": [
+      {
+        "type": "cardinality",
+        "min": 0
+      }
+    ],
+    "metadata": [
+      {
+        "type": "name",
+        "data": "加工内容"
+      },
+      {
+        "type": "description",
+        "data": "加工内容を記述するためのプロパティ用語"
+      }
+    ]
+  },
+  {
+    "type": "set",
+    "class": {
+      "prefix": "ic",
+      "name": "会社特徴項目型"
+    },
+    "property": {
+      "prefix": "ic",
+      "name": "得意加工技術"
+    },
+    "restriction": [
+      {
+        "type": "cardinality",
+        "min": 0
+      }
+    ],
+    "metadata": [
+      {
+        "type": "name",
+        "data": "得意加工技術"
+      },
+      {
+        "type": "description",
+        "data": "得意加工技術を記述するためのプロパティ用語"
+      }
+    ]
+  },
+  {
+    "type": "set",
+    "class": {
+      "prefix": "ic",
+      "name": "会社特徴項目型"
+    },
+    "property": {
+      "prefix": "ic",
+      "name": "加工分野"
+    },
+    "restriction": [
+      {
+        "type": "cardinality",
+        "min": 0
+      }
+    ],
+    "metadata": [
+      {
+        "type": "name",
+        "data": "加工分野"
+      },
+      {
+        "type": "description",
+        "data": "加工分野を記述するためのプロパティ用語"
+      }
+    ]
+  },
+  {
+    "type": "set",
+    "class": {
+      "prefix": "ic",
+      "name": "会社特徴項目型"
+    },
+    "property": {
+      "prefix": "ic",
+      "name": "加工素材"
+    },
+    "restriction": [
+      {
+        "type": "cardinality",
+        "min": 0
+      }
+    ],
+    "metadata": [
+      {
+        "type": "name",
+        "data": "加工素材"
+      },
+      {
+        "type": "description",
+        "data": "加工素材を記述するためのプロパティ用語"
+      }
+    ]
+  },
+  {
+    "type": "set",
+    "class": {
+      "prefix": "ic",
+      "name": "会社特徴項目型"
+    },
+    "property": {
+      "prefix": "ic",
+      "name": "依頼の多い業種"
+    },
+    "restriction": [
+      {
+        "type": "cardinality",
+        "min": 0
+      }
+    ],
+    "metadata": [
+      {
+        "type": "name",
+        "data": "依頼の多い業種"
+      },
+      {
+        "type": "description",
+        "data": "依頼の多い業種を記述するためのプロパティ用語"
+      }
+    ]
+  },
+  {
+    "type": "set",
+    "class": {
+      "prefix": "ic",
+      "name": "会社特徴項目型"
+    },
+    "property": {
+      "prefix": "ic",
+      "name": "取り扱える製品の大きさ"
+    },
+    "restriction": [
+      {
+        "type": "cardinality",
+        "min": 0
+      }
+    ],
+    "metadata": [
+      {
+        "type": "name",
+        "data": "取り扱える製品の大きさ"
+      },
+      {
+        "type": "description",
+        "data": "取り扱える製品の大きさを記述するためのプロパティ用語"
+      }
+    ]
+  },
+  {
+    "type": "set",
+    "class": {
+      "prefix": "ic",
+      "name": "会社特徴項目型"
+    },
+    "property": {
+      "prefix": "ic",
+      "name": "加入団体"
+    },
+    "restriction": [
+      {
+        "type": "cardinality",
+        "min": 0
+      }
+    ],
+    "metadata": [
+      {
+        "type": "name",
+        "data": "加入団体"
+      },
+      {
+        "type": "description",
+        "data": "加入団体を記述するためのプロパティ用語"
+      }
+    ]
+  },
+  {
+    "type": "set",
+    "class": {
+      "prefix": "ic",
+      "name": "会社特徴項目型"
+    },
+    "property": {
+      "prefix": "ic",
+      "name": "主要測定機器"
+    },
+    "restriction": [
+      {
+        "type": "cardinality",
+        "min": 0
+      }
+    ],
+    "metadata": [
+      {
+        "type": "name",
+        "data": "主要測定機器"
+      },
+      {
+        "type": "description",
+        "data": "主要測定機器を記述するためのプロパティ用語"
+      }
+    ]
+  },
+  {
+    "type": "set",
+    "class": {
+      "prefix": "ic",
+      "name": "会社特徴項目型"
+    },
+    "property": {
+      "prefix": "ic",
+      "name": "主要機械設備"
+    },
+    "restriction": [
+      {
+        "type": "cardinality",
+        "min": 0
+      }
+    ],
+    "metadata": [
+      {
+        "type": "name",
+        "data": "主要機械設備"
+      },
+      {
+        "type": "description",
+        "data": "主要機械設備を記述するためのプロパティ用語"
+      }
+    ]
+  },
+  {
+    "type": "set",
+    "class": {
+      "prefix": "ic",
+      "name": "会社特徴項目型"
+    },
+    "property": {
+      "prefix": "ic",
+      "name": "sns等の広報活動"
+    },
+    "restriction": [
+      {
+        "type": "cardinality",
+        "min": 0
+      }
+    ],
+    "metadata": [
+      {
+        "type": "name",
+        "data": "sns等の広報活動"
+      },
+      {
+        "type": "description",
+        "data": "sns等の広報活動を記述するためのプロパティ用語"
+      }
+    ]
+  }
+]
